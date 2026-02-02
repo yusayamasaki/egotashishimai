@@ -24,11 +24,12 @@ main {
   padding: 16px;
 }
 
-/* ボタン */
+/* 三本線ボタン */
 #menuBtn {
   font-size: 24px;
   background: none;
   border: none;
+  cursor: pointer;
 }
 
 /* サイドメニュー */
@@ -47,6 +48,12 @@ main {
 #sideMenu.open {
   right: 0;
 }
-body {
-  background: red;
+
+/* メニューリンク */
+#sideMenu a {
+  display: block;
+  margin-bottom: 16px;
+  text-decoration: none;
+  color: #333;
 }
+
