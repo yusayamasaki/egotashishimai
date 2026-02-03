@@ -62,3 +62,32 @@ main {
 .card {
   margin-bottom: 20px;
 }
+.top-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.top-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  background: #fff;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.top-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.top-card span {
+  margin-top: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
+}
