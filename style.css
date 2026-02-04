@@ -216,3 +216,6 @@ main {
   margin: 60px auto 0;  /* ← 上だけ120pxあける */
   padding: 20px;
 }
+header h1 {
+  font-size: 24px; /* 好きな大きさに調整 */
+}
