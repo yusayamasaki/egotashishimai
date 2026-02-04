@@ -127,3 +127,57 @@ main {
   text-decoration: none;
   font-weight: bold;
 }
+/* 全体背景と文字 */
+body {
+  background: #3F5A46;
+  color: #FFFFFF;
+}
+
+/* トップページ全体 */
+.top-page {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* タイトル */
+.top-title {
+  font-size: 2em;
+  margin-bottom: 40px;
+  color: #FFFFFF;
+}
+
+/* 2×2グリッド */
+.top-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* 各ブロック */
+.top-item img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 15px;
+  border: 6px solid #9AA0A6; /* デフォルト */
+}
+
+/* 獅子別の縁色 */
+.taishishi img { border-color: #8E6BBE; }
+.nakashishi img { border-color: #6B8E6E; }
+.meshishi img { border-color: #E39A7A; }
+.other img { border-color: #9AA0A6; }
+
+/* ボタン */
+.top-item a {
+  display: inline-block;
+  padding: 8px 20px;
+  background: #FFF5E6;
+  color: #4B2A1A;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
