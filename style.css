@@ -211,3 +211,8 @@ audio {
   color: #fff;
   border-bottom: 1px solid rgba(255,255,255,0.2);
 }
+main {
+  max-width: 900px;
+  margin: 120px auto 0;  /* ← 上だけ120pxあける */
+  padding: 20px;
+}
