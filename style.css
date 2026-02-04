@@ -223,3 +223,10 @@ header h1 {
 body {
   background-color: #0f3d2e; /* 深緑 */
 }
+main {
+  background-color: #fdfcf8; /* 生成り */
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 900px;
+}
