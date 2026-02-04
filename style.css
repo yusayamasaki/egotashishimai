@@ -206,3 +206,8 @@ audio {
   width: 100%;
   margin-top: 12px;
 }
+.site-header {
+  background: #2f4a32;
+  color: #fff;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
